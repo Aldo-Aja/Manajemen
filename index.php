@@ -45,7 +45,7 @@
         </nav>
         <style>
             .carousel-item img {
-                opacity: 0.5;
+                opacity: 10;
                 min-height: 550px;
                 max-height: 550px;
             }
@@ -71,7 +71,8 @@
                             echo 'active';
                         }
                         ?>" data-bs-interval="4000">
-                        <img src="C:\xampp\htdocs\Erlangga-Hero\assets\img<?= $row['gambar']; ?>" class="d-block w-100" alt="...">
+                        <img src="assets/img/<?= $row['gambar']; ?>" class="d-block w-100" alt="...">
+
                         <div class="carousel-caption d-none d-md-block">
                             <h2><?= $row['judul']; ?></h2>
                             <p><?= $row['subjudul']; ?><p>
